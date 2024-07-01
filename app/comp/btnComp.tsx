@@ -1,6 +1,10 @@
-export default function Button() {
+type btnProps = { 
+    text: string
+}
+
+export default function Button({ text }: btnProps) {
 
     return (
-        <button onClick={() => console.log('wheels start')} > </ button>
+        <button style={{backgroundColor: "green"}} onClick={() => console.log('wheels start')} >{text}</ button>
     )
 }
