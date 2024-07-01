@@ -1,5 +1,6 @@
 export const WheelOfFortune = () => {
+
     return (
-        <div>Wheel</div>
+        <div>Wheel of fortune is recieving only winner</div>
     )
 }
